@@ -6,7 +6,7 @@ const Usuario = db.define('usuarios',{
         type: DataTypes.STRING,
         allowNull: false
     },
-    emai: {
+    email: {
         type: DataTypes.STRING,
         allowNull: false
     },
@@ -14,8 +14,8 @@ const Usuario = db.define('usuarios',{
         type: DataTypes.STRING,
         allowNull: false
     } ,
-    token: dataTypes.STRING,
-    confirmado: dataTypes.STRING
+    token: DataTypes.STRING,
+    confirmado: DataTypes.STRING
 })
 
 export default Usuario
